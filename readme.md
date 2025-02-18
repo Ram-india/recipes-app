@@ -33,8 +33,4 @@ This is a **Recipe Management API** built using **Node.js, Express.js, and Mongo
 git clone https://github.com/Ram-india/recipes-app.git
 cd recipe-app
 
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
 
