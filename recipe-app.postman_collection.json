@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "096e4153-fff0-46c6-b938-2cefd5436423",
+		"name": "recipe-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35985168"
+	},
+	"item": [
+		{
+			"name": "create-api-recipe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"curd rice\",\n    \"description\":\"jhgjhjhvjhvjhvhjg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost: 1360/api/recipes"
+			},
+			"response": []
+		},
+		{
+			"name": "get-api-aall-recipes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost: 1360/api/recipes/"
+			},
+			"response": []
+		},
+		{
+			"name": "update-api-recipe-by-id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"CURD RICE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost: 1360/api/recipes/67b4001883be6d31a875bdf9"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
